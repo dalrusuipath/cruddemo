@@ -10,6 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+
+//spring data jpa can be used to get rid of dao and impl
 @Repository
 public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 
